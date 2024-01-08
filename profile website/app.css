@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Nav Bar */
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+}
+
+header nav .header_links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header nav .header_links ul li, section.main ul li {
+    list-style-type: none;
+}
+
+header nav .header_links ul li a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    padding :12px 12px;
+    transition: 0.3s all;
+    font-size: 17px;
+    
+    
+    
+}
+
+header nav .header_links ul li a:hover {
+    color: rgb(85, 85, 185);
+}
+
+header nav .header_logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid #3b3d4e93;
+    cursor: pointer;
+    position : fixed;
+}
+
+
+/* Main */
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    animation: fadeInUp .10s;
+}
+
+section.main img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 10px solid #21222b93;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+section.main span {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.main p {
+    position: relative;
+    top: 50%;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    font-size: 17px;
+    
+}
+
+section.main ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.main ul li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-size: 25px;
+    padding: 5px;
+    transition: 0.2s all;
+}
+
+section.main ul li a:hover {
+    transition: 0.2s all;
+    color: rgb(85, 85, 185);
+}
+
+.experience{
+    
+    border-radius: 45px;
+    text-align: center;
+    background-color: rgb(218, 213, 213);
+    width: fit-content;
+    padding: 20px;
+    margin-left: 40px;
+    color: black;
+}
+.education{
+    border-radius: 45px;
+    text-align: center;
+    background-color:  rgb(218, 213, 213);
+    width: fit-content;
+    padding: 20px;
+    margin-left: 35px;
+    color: black;
+    
+}
+.project{
+    border-radius: 45px;
+    text-align: center;
+    background-color:  rgb(218, 213, 213);
+    width: fit-content;
+    padding: 20px;
+    margin-left: 40px;
+    color: black;
+    
+}
+.logo {
+    
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: top 5px;
+}
+.message{
+    margin-left:700px;
+    border:solid rgb(248, 27, 182);
+    background-color: rgb(255, 121, 237);
+    border-radius: 10px;
+    justify-content: space-around;
+    width:fit-content;
+    text-align: center;
+    color:black;
+
+}
+
