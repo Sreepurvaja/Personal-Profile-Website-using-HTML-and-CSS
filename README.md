@@ -1,7 +1,7 @@
 # Personal-Profile-Website-using-HTML-and-CSS
 
 ## Step 1: Planning and Preparation:
-
+ 
 The purpose of this website is to train me in HTML and CSS and recap of it to do more like this.
 
 ## Step 2: Setting Up the Project:
